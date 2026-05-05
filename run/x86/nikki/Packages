@@ -1,0 +1,60 @@
+Package: luci-app-nikki
+Version: 1.26.0-r1
+Depends: libc, luci-base, nikki
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-nikki_1.26.0-r1_all.ipk
+Size: 10425
+SHA256sum: 5d0f853d6bf171475047931e15cd4b71e27ab51c9f0ecd8bd89a13e218e3704f
+Description:  LuCI Support for nikki
+
+Package: luci-i18n-nikki-ru
+Version: 26.100.26541~bc29251
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-ru_26.100.26541~bc29251_all.ipk
+Size: 5740
+SHA256sum: 018e2a5a39a1783d1918c4a453481c612eba267fb35ebd7b35889b053d07a24d
+Description:  Translation for luci-app-nikki - Русский (Russian)
+
+Package: luci-i18n-nikki-zh-cn
+Version: 26.100.26541~bc29251
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-cn_26.100.26541~bc29251_all.ipk
+Size: 5207
+SHA256sum: 63a78bf1daf736419b8c12e75501fac65bc7d83025f22cd21f8b90085165deff
+Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nikki-zh-tw
+Version: 26.100.26541~bc29251
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-tw_26.100.26541~bc29251_all.ipk
+Size: 5275
+SHA256sum: d2ee6f778f79c9400741644f139c197e8d403702c76334d620b71335493014cb
+Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
+
+Package: nikki
+Version: 2026.04.08-r1
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy
+Provides: mihomo
+Alternatives: 300:/usr/bin/mihomo:/usr/libexec/nikki
+License: GPL3.0+
+Section: net
+URL: https://wiki.metacubex.one
+Architecture: x86_64
+Installed-Size: 35635200
+Filename: nikki_2026.04.08-r1_x86_64.ipk
+Size: 13022321
+SHA256sum: 95fb22f232d0b8b001c8ba0c8b397465192a97447ad7a0d11cbbe7101a733638
+Description:  A rule based proxy in Go.
+
